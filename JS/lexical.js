@@ -20,8 +20,7 @@ window.onload = function() {
 
     let textArea = document.querySelector("#connect");
     let button = document.querySelector("#button");
-
-
+    let div2 = document.getElementById("div2");
     //获取输入值
     let getValue = '';
     let result = [];
@@ -53,6 +52,7 @@ window.onload = function() {
         if(textArea.value !== ''){
             getValue = textArea.value;
             // console.log(getValue);
+            div2.style.display = 'block';
         }else{
             alert('亲，请输入相关数据');
         }
