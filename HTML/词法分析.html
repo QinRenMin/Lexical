@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>词法分析</title>
+    <style type="text/css">
+        #div1{
+
+        }
+        #connect{
+            position: relative;
+            width: 800px;
+            height: 100px;
+            left:40px;
+            top:40px;
+            border: 1px solid cornflowerblue;
+            font-size: 20px;
+            /*text-align: left;*/
+        }
+        #button{
+            position: relative;
+            top:80px;
+            left:-60px;
+            width: 100px;
+            height: 40px;
+            background: lightblue;
+        }
+        #div2{
+            position: relative;
+            margin-top: 100px;
+            margin-left: 40px;
+        }
+        table th{
+            background: lightgray;
+        }
+        table tr{
+            height: 30px;
+           font-size: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div id="div1">
+
+    <label>
+        <textarea name=""id="connect"  ></textarea>
+    </label>
+        <input type="button" value="生成词法分析" id="button">
+
+</div>
+<div id="div2">
+    <table border="1px solid black" style="width: 800px" id="t">
+        <thead>
+        <tr>
+            <th>行号</th>
+            <th>符号</th>
+            <th>标志</th>
+            <th>描述</th>
+        </tr>
+        </thead>
+
+    </table>
+</div>
+<script src="../JS/lexical.js"></script>
+
+</body>
+</html>
